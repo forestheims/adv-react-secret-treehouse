@@ -22,14 +22,6 @@ export default function Login() {
     loginWasSuccessful
       ? history.replace(from)
       : setError('login failed. try again.');
-
-    // TODO: If login was unsuccessful, set an error with a message
-    // to display to the user that their login failed.
-    //
-    // If login was successful, use the history hook
-    // from React Router to replace the current URL with the URL
-    // we need to redirect to.
-    // See https://v5.reactrouter.com/web/api/history for the appropriate method to use
   };
 
   return (
